@@ -37,3 +37,4 @@ How do i made this Project
 -   for loading the model , change autoload.php $autoload['model'] = array('crud_model');
 
 -   for CRUD - change MVC files only 
+-   Set default controller from routes.php
