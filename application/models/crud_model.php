@@ -8,6 +8,10 @@ class Crud_model extends CI_Model{
             return $query->result();
         }
     }
+    public function insertProduct($data){
+        
+        $this->db->insert('products',$data);
+    }
 }
 
 
