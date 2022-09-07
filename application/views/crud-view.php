@@ -41,7 +41,7 @@
                     <td><?php echo $products->quantity ?></td>
         
                     <td> 
-                        <a href="#" class="btn btn-success">Edit</a> 
+                        <a href="<?php echo base_url(); ?>crud/editProduct/<?php echo $products->id ?>" class="btn btn-success">Edit</a> 
                         <a href="#" class="btn btn-danger">Delete</a> 
                     </td>
                 </tr>
@@ -119,6 +119,20 @@
 
 <div align="center" style="color:#fff" class="bg-success">
 <?php echo  $this->session->flashdata('Inserted'); ?>
+</div>         
+
+<?php endif; ?>
+
+
+
+
+
+
+
+<?php if($this->session->flashdata('Updated')): ?>
+
+<div align="center" style="color:#fff" class="bg-success">
+<?php echo  $this->session->flashdata('Updated'); ?>
 </div>         
 
 <?php endif; ?>
