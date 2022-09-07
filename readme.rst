@@ -3,7 +3,7 @@ How to Run in Local
 ###################
   
 -   Php is Installed 
--   xampp or mamp is Downloaded
+-   xampp or mamp and Composer is Downloaded
 -   Run xampp or mamp servers
 -   Download Zip & unzip it 
 -   rename folder to ("codeigniter-CRUD")
