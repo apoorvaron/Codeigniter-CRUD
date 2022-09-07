@@ -33,11 +33,14 @@ class Crud extends CI_Controller{
         }else{
             // echo "3";
 
-            $this->crud_model->insertProduct([
-                'name'=>'Red',
-                'price'=>55,
-                'quantity'=>66
+            $result = $this->crud_model->insertProduct([
+                'name'=>$this->input->post('name'),
+                'price'=>$this->input->post('price'),
+                'quantity'=>$this->input->post('quantity')
             ]);
+            if($result){
+                $this->session->set_flashdata('Inserted','Your data has been successfully inserted');
+            }
         }
         // echo $this->form_validation->run();
         redirect('crud');

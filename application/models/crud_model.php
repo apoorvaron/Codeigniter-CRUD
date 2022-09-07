@@ -9,9 +9,14 @@ class Crud_model extends CI_Model{
         }
     }
     public function insertProduct($data){
-        
-        $this->db->insert('products',$data);
-    }
+
+        $query = $this->db->insert('products',$data);
+        if($query){
+            return true;
+        }else{
+            return false;
+        }
+    }   
 }
 
 
