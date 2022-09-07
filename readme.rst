@@ -8,8 +8,10 @@ How to Run in Local
 -   Download Zip & unzip it 
 -   rename folder to ("codeigniter-CRUD")
 -   move folder to htdocs/
--   import sql file in phpmyadmin
--   change credentials in application/config/database.php
+-   Create database with name "codeigniter-CRUD"
+-   import sql file in phpmyadmin from "/" directory
+-   change credentials in htdocs/codeigniter/application/config/database.php
+-   Then run in browser localhost/codeigniter-CRUD/crud
 
 
 ######################################
