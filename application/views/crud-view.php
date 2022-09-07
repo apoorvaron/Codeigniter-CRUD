@@ -42,7 +42,7 @@
         
                     <td> 
                         <a href="<?php echo base_url(); ?>crud/editProduct/<?php echo $products->id ?>" class="btn btn-success">Edit</a> 
-                        <a href="#" class="btn btn-danger">Delete</a> 
+                        <a href="<?php echo base_url(); ?>crud/deleteProduct/<?php echo $products->id ?>" class="btn btn-danger">Delete</a> 
                     </td>
                 </tr>
 
@@ -107,6 +107,18 @@
 </div>         
 
 <?php endif; ?>
+
+
+
+
+<?php if($this->session->flashdata('Deleted')): ?>
+
+<div align="center" style="color:#fff" class="bg-success">
+<?php echo  $this->session->flashdata('Deleted'); ?>
+</div>         
+
+<?php endif; ?>
+
 
 
 

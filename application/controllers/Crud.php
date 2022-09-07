@@ -54,6 +54,7 @@ class Crud extends CI_Controller{
 
         $this->load->view('edit-view',$data);
     }
+
     public function update($id){
         echo "1";
         $this->form_validation->set_rules('name','Product Name','trim|required');
@@ -90,6 +91,21 @@ class Crud extends CI_Controller{
         }
         // echo $this->form_validation->run();
         redirect('crud');
+    }
+
+
+
+    public function deleteProduct($id){
+        echo $id; 
+
+        $result = $this->crud_model->deleteProduct($id);
+        if($result){
+            $this->session->set_flashdata('Deleted',"Your Product has been Deleted");
+        }
+
+
+        redirect('crud');
+
     }
 }
 ?>
