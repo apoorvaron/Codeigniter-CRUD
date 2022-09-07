@@ -9,7 +9,7 @@ class Crud extends CI_Controller{
         $this->load->view("crud-view",$data);
     }
     public function addProduct(){
-        echo "1";
+        // echo "1";
         $this->form_validation->set_rules('name','Product Name','trim|required');
         $this->form_validation->set_rules('price','Product Price','trim|required');
         $this->form_validation->set_rules('quantity','Product Quantity','trim|required');
@@ -96,7 +96,7 @@ class Crud extends CI_Controller{
 
 
     public function deleteProduct($id){
-        echo $id; 
+        // echo $id; 
 
         $result = $this->crud_model->deleteProduct($id);
         if($result){
