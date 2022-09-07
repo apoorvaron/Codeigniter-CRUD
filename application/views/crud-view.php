@@ -27,29 +27,35 @@
 
             </thead>
             <tbody>
+
+            <?php
+                foreach($product_details as $products):
+            ?>
                 <tr>
-                    <td>Mango</td>
-                    <td>200</td>
-                    <td>20</td>
+                    <td><?php echo $products->name ?></td>
+                    <td><?php echo $products->price ?></td>
+                    <td><?php echo $products->quantity ?></td>
+        
                     <td> 
                         <a href="#" class="btn btn-success">Edit</a> 
                         <a href="#" class="btn btn-danger">Delete</a> 
                     </td>
                 </tr>
 
-                <tr>
-                    <td>Mango</td>
-                    <td>200</td>
-                    <td>20</td>
-                    <td> 
-                        <a href="#" class="btn btn-success">Edit</a> 
-                        <a href="#" class="btn btn-danger">Delete</a> 
-                    </td>
-                </tr>
+            
+            <?php
+                endforeach;
+            ?>
 
+               
             </tbody>
         </table>
     </div>
+    <pre>
+<?php
+// print_r($product_details);
 
+?>
+</pre>
 </body>
 </html>
