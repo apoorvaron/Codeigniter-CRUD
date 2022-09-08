@@ -9,7 +9,7 @@ How to Run in Local
 -   rename folder to ("codeigniter-CRUD")
 -   move folder to htdocs/
 -   Create database with name "codeigniter-CRUD"
--   import sql file in phpmyadmin from "/" directory
+-   Import sql file in phpmyadmin from "/" directory
 -   change credentials in htdocs/codeigniter/application/config/database.php
 -   Then run in browser localhost/codeigniter-CRUD/crud
 
