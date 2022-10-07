@@ -170,6 +170,11 @@ img {
   border-style: none;
 }
 
+img--main {
+  vertical-align: middle;
+  border-style: none;
+}
+
 svg {
   overflow: hidden;
   vertical-align: middle;
