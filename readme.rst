@@ -11,7 +11,7 @@ How to Run in Local
 -   Create database with name "codeigniter-CRUD"
 -   Import sql file in phpmyadmin from "/" directory
 -   change credentials in htdocs/codeigniter/application/config/database.php
--   Then run in browser localhost/codeigniter-CRUD/crud
+-   Then run in browser localhost/codeigniter-CRUD/crud/
 
 
 ######################################
