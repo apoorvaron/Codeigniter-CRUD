@@ -6,7 +6,7 @@ How to Run in Local
 -   xampp or mamp and Composer is Downloaded
 -   Run xampp or mamp servers
 -   Download Zip & unzip it 
--   rename folder to ("codeigniter-CRUD")
+-   Rename folder to ("codeigniter-CRUD")
 -   move folder to htdocs/
 -   Create database with name "codeigniter-CRUD"
 -   Import sql file in phpmyadmin from "/" directory
