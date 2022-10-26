@@ -142,6 +142,11 @@ html--main {
   flex: 0 0 25%;
   max-width: 25%;
 }
+.col-3__2 {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
 
 .col-4 {
   -ms-flex: 0 0 33.333333%;
