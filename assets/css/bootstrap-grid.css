@@ -17,6 +17,9 @@ html--main {
 *::after {
   box-sizing: inherit;
 }
+gupt--ronakk{
+  font-weight:10;
+}
 
 .container {
   width: 100%;
