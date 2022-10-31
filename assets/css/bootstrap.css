@@ -87,6 +87,10 @@ body--ayush {
   color: #212533;
   text-align: left;
   background-color: #fff;
+
+p--vishesh {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 p {
