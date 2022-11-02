@@ -13,7 +13,6 @@ How to Run in Local
 -   change credentials in htdocs/codeigniter/application/config/database.php
 -   Then run in browser localhost/codeigniter-CRUD/crud/
 
-
 ######################################
 How do i made this Project
 ######################################
